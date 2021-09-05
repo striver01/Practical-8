@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background: gray;
+}
+.nav ul {
+  display: flex;
+  padding: 10px;
+}
+.nav ul li {
+  font-size: larger;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 150px;
+}
+.nav ul li:hover {
+  background-color: yellowgreen;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  padding: 10px;
+  height: 100vh;
+  position: relative;
+}
+.banner h1 {
+  font-size: 70px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  color: white;
+}
+.heading {
+  text-align: center;
+  margin: 40px;
+}
+.avtar {
+  display: flex;
+}
+.face {
+  margin-left: 60px;
+}
+.face img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+.main {
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+  background-color: grey;
+  color: white;
+}
+.main p {
+  text-align: justify;
+  padding-top: 20px;
+}
+.project {
+  width: 50%;
+}
+.pro {
+  position: relative;
+}
+.pro img {
+  width: 100%;
+  height: 190px;
+  display: block;
+  margin-bottom: 15px;
+}
+.pro h2 {
+  top: 0;
+  left: 300px;
+  position: absolute;
+  z-index: 10;
+}
+.container {
+  display: flex;
+}
+.card {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: gray;
+}
+.button {
+  display: block;
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: blue;
+}
+.footer {
+  background-color: rgb(221, 178, 200);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
